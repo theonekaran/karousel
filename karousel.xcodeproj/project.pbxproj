@@ -14,6 +14,13 @@
 		0F52D6B81CF560A5005BF922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F52D6B61CF560A5005BF922 /* LaunchScreen.storyboard */; };
 		0F52D6C31CF560A5005BF922 /* karouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6C21CF560A5005BF922 /* karouselTests.swift */; };
 		0F52D6CE1CF560A5005BF922 /* karouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6CD1CF560A5005BF922 /* karouselUITests.swift */; };
+		0F52D6DC1CF562F8005BF922 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6DB1CF562F8005BF922 /* Common.swift */; };
+		0F52D6DE1CF56352005BF922 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6DD1CF56352005BF922 /* IntroViewController.swift */; };
+		0F52D6E01CF57C60005BF922 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6DF1CF57C60005BF922 /* SignInViewController.swift */; };
+		0F52D6E21CF58F78005BF922 /* TutorialViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6E11CF58F78005BF922 /* TutorialViewcontroller.swift */; };
+		0F52D6E41CF599F4005BF922 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6E31CF599F4005BF922 /* ConversationsViewController.swift */; };
+		0F52D6E61CF59A01005BF922 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6E51CF59A01005BF922 /* SettingsViewController.swift */; };
+		0F52D6E81CF59E97005BF922 /* ImageTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52D6E71CF59E97005BF922 /* ImageTimelineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		0F52D6C91CF560A5005BF922 /* karouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F52D6CD1CF560A5005BF922 /* karouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karouselUITests.swift; sourceTree = "<group>"; };
 		0F52D6CF1CF560A5005BF922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F52D6DB1CF562F8005BF922 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = SOURCE_ROOT; };
+		0F52D6DD1CF56352005BF922 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		0F52D6DF1CF57C60005BF922 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0F52D6E11CF58F78005BF922 /* TutorialViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewcontroller.swift; sourceTree = "<group>"; };
+		0F52D6E31CF599F4005BF922 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		0F52D6E51CF59A01005BF922 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0F52D6E71CF59E97005BF922 /* ImageTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTimelineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +114,14 @@
 				0F52D6AD1CF560A5005BF922 /* AppDelegate.swift */,
 				0F52D6AF1CF560A5005BF922 /* ViewController.swift */,
 				0F52D6B11CF560A5005BF922 /* Main.storyboard */,
+				0F52D6DF1CF57C60005BF922 /* SignInViewController.swift */,
+				0F52D6E71CF59E97005BF922 /* ImageTimelineViewController.swift */,
+				0F52D6E31CF599F4005BF922 /* ConversationsViewController.swift */,
+				0F52D6E51CF59A01005BF922 /* SettingsViewController.swift */,
+				0F52D6E11CF58F78005BF922 /* TutorialViewcontroller.swift */,
 				0F52D6B41CF560A5005BF922 /* Assets.xcassets */,
+				0F52D6DB1CF562F8005BF922 /* Common.swift */,
+				0F52D6DD1CF56352005BF922 /* IntroViewController.swift */,
 				0F52D6B61CF560A5005BF922 /* LaunchScreen.storyboard */,
 				0F52D6B91CF560A5005BF922 /* Info.plist */,
 			);
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F52D6E81CF59E97005BF922 /* ImageTimelineViewController.swift in Sources */,
 				0F52D6B01CF560A5005BF922 /* ViewController.swift in Sources */,
+				0F52D6DC1CF562F8005BF922 /* Common.swift in Sources */,
+				0F52D6E41CF599F4005BF922 /* ConversationsViewController.swift in Sources */,
 				0F52D6AE1CF560A5005BF922 /* AppDelegate.swift in Sources */,
+				0F52D6E01CF57C60005BF922 /* SignInViewController.swift in Sources */,
+				0F52D6E21CF58F78005BF922 /* TutorialViewcontroller.swift in Sources */,
+				0F52D6DE1CF56352005BF922 /* IntroViewController.swift in Sources */,
+				0F52D6E61CF59A01005BF922 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
